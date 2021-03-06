@@ -1,0 +1,23 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "Проект по Клиент-серверу",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/banaman/Chat.git"
+  },
+  "author": "Dmitry Blinov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/banaman/Chat/issues"
+  },
+  "homepage": "https://github.com/banaman/Chat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^3.1.2"
+  }
+}
