@@ -1,11 +1,13 @@
 # Chat
-Работа по Клиент-серверу.
 
-Основная мысль: создать чат с простым и понятным интерфейсом, который можно с легкостью открыть почти на любом устройстве.
+Main idea: general and clear interface.
 
-Для реализации проекта использовался Node.js. Node.js – программная платформа, основанная на движке V8, превращающая JavaScript из узкоспециализированного языка в язык общего назначения. Из этого следует, что языки, которые использовались для реализации приложения: HTML, CSS, JS.
-Так же были использованы некоторые открытые библиотеки, такие как Socket.IO и jQuery. Socket.IO — JavaScript-библиотека для веб-приложений и обмена данными в реальном времени. jQuery — набор функций JavaScript, фокусирующийся на взаимодействии JavaScript и HTML.
+Node.js was used to implement the project. Node.js is a V8-based software platform that transforms JavaScript from a highly specialized language into a general-purpose language. It follows from this that the languages that were used to implement the application: HTML, CSS, JS.
+Some open source libraries such as Socket.IO and jQuery have also been used. Socket.IO is a JavaScript library for web applications and real-time data exchange. jQuery is a set of JavaScript functions that focuses on the interaction of JavaScript and HTML.
 
-В роли клиента будет выступать любой современный браузер.
+Any modern browser will act as a client.
 
-У приложения есть две страницы: авторизация и лобби чата. Изначально пользователь попадают на страницу авторизации, где ему предлагается ввести имя, которые будет за ним закреплено на время сессии. После успешного ввода, пользователь попадает в чат, об этом клиент отправляет сообщение серверу о новом клиенте, сервер рассылает всем остальным подключенным клиентам об этом, а самому клиенту выдаётся цвет имени, посчитанный из его хэша. При подключении нового пользователя в чате появляется соответствующее сообщение и сколько клиентов сейчас находятся в чате. Все находятся в одном лобби, нельзя что-то адресовать конкретному пользователю, все видят сообщения в чате 
+The application has two pages: login and chat lobby. Initially, the user goes to the authorization page, where he is asked to enter a name that will be assigned to him during the session. After successful input, the user enters the chat, the client sends a message to the server about the new client, the server sends to all other connected clients about this, and the client itself is given the color of the name, calculated from its hash. When a new user connects, a corresponding message appears in the chat and how many clients are currently in the chat. Everyone is in the same lobby, you cannot address something to a specific user, everyone sees messages in the chat
+
+![alt text](login_screen.png "Login screen")
+![alt text](chat_screen.png "Chat screen")
